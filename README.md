@@ -56,52 +56,7 @@ The goal is to provide an **affordable alternative to commercial VR gloves** for
 * IMU-based tracking is feasible but shows drift vs Vive Tracker
 * Low latency (~20ms) makes system usable for VR
 
----
 
-📁 Repository Structure
-
-* `report/` → Thesis document
-* `firmware/` → ESP32 code
-* `hardware/` → wiring & setup
-* `models/` → 3D printed parts
-* `images/` → project visuals
-
----
-
-🚀 Setup Instructions
-
- 1. Hardware Setup
-
-* Assemble glove using 3D printed parts
-* Connect potentiometers to ESP32 ADC pins
-* Connect IMU via I2C (SDA: GPIO21, SCL: GPIO22)
-* Power servos using external 5V source
-
- 2. Firmware Upload
-
-```bash
-Upload ESP32 code using Arduino IDE / PlatformIO
-```
-
-3. VR Integration
-
-* Install OpenGloves
-* Connect ESP32 via Bluetooth/WiFi
-* Configure SteamVR bindings
-
----
-
-📸 Demo
-
-(Add images or videos here)
-
----
-
-📚 Thesis
-
-Full report available in `/report`
-
----
 
 👨‍🎓 Author
 
@@ -109,8 +64,5 @@ Full report available in `/report`
 M.Sc. Computer Science
 Ulm University
 
----
 
-📄 License
 
-(Add license, e.g. MIT)
